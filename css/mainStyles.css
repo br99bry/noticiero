@@ -75,7 +75,7 @@ body{
 
 .hero{
     width: 100vw;
-    height: 53vh;
+    height: 50vh;
     /* border: 1px solid red; */
     background-color: #82d1e2;
     border-top: 10px solid #2692aa;
@@ -146,5 +146,59 @@ body{
     font-size: 220px;
 }
 
+.general-news{
+    width: 100vw;
+    background-color: #696c7f;
+}
+.general-news-container{
+    width: 70vw;
+    margin: 0 auto;
+    display: grid;
+    height: 40vh;
+    grid-template: 100%/ 30% 30% 30%;
+    grid-column-gap: 5%;
+    
+}
+
+.item-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+}
+
+.img-general-new-container{
+    margin-top: 15px;
+    width: 80%;
+    height: 30%;
+    overflow: hidden;
+    border-radius: 10px;
+}
 
 
+.img-general-new{
+    width: 100%;
+    height: 100%;
+}
+
+.new-genereal-details{
+    width: 90%;
+    height: 60%;
+    /* border: 1px solid red; */
+    
+}
+
+.general-new-title{
+    font-weight: bold;
+    color: white;
+}
+
+.general-new-date{
+    font-size: 13px;
+    color: white;
+}
+
+.general-new-description{
+    color: white;
+}
