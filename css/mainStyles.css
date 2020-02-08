@@ -77,9 +77,9 @@ body{
     width: 100vw;
     height: 50vh;
     /* border: 1px solid red; */
-    background-color: #82d1e2;
-    border-top: 10px solid #2692aa;
-    border-bottom: 10px solid #2692aa;
+    background-color: #fdfdfd;
+    border-top: 10px solid #000000;
+    border-bottom: 10px solid #000000;
 }
 
 .hero-container{
