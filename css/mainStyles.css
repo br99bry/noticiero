@@ -73,6 +73,78 @@ body{
     color: white;
 }
 
+.hero{
+    width: 100vw;
+    height: 53vh;
+    /* border: 1px solid red; */
+    background-color: #82d1e2;
+    border-top: 10px solid #2692aa;
+    border-bottom: 10px solid #2692aa;
+}
+
+.hero-container{
+    margin: 0 auto;
+    width: 70vw;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template: 20% 80% / 50% 50%;
+    grid-template-areas: "titulo imagen"
+                        "contenido imagen";
+}
+
+.item{
+    /* border: 1px solid red; */
+}
+
+.main-title-container{
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title-new{
+    width: 90%;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.main-new-content-container{
+    grid-area: contenido;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.main-new-details{
+    width: 90%;
+    color: black;
+    font-size: 16px;
+}
+
+.main-new-date{
+    font-size: 12px;
+}
+.main-image-new-container{
+    grid-area: imagen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-new-main{
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    width: 80%;
+    height: 80%;
+    /* border: 1px solid red; */
+}
+
+.icon-new-main{
+    font-size: 220px;
+}
 
 
 
