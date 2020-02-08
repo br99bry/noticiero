@@ -35,7 +35,25 @@ body{
 
 .search-container{
     /* border: 1px solid red; */
-    
+    width: 40%;
+}
+
+.input-search-new{
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.input-search-new:hover
+{
+    border: 1px solid rgb(66, 65, 65);
+    box-shadow: 0 0 10px 0 #1f1f20;
+}
+
+.input-search-new:focus{
+    outline-offset: 0;
+    outline: none;
+    box-shadow: 0 0 10px 0 #1f1f20;
 }
 
 .nav-container ul{
